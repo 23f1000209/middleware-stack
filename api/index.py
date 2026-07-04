@@ -72,6 +72,7 @@ app.add_middleware(
     allow_origins=[
         "https://app-ge71xx.example.com"
     ],
+    allow_origin_regex=".*",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
